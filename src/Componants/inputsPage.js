@@ -17,7 +17,6 @@ function Inputs(){
                 }
                 let keys = Object.keys(inputsObj)
                 let values = Object.values(inputsObj)
-                let Once = false;
                
     return  (
         <div className="main">
