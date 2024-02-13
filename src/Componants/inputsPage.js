@@ -55,7 +55,6 @@ function Inputs(){
                 }
                 let keys = Object.keys(inputsObj)
                 let values = Object.values(inputsObj)
-                Once = true;
                 keys.map((e, i)=>{
                     let newArr = []
                     inputsObj[`RANK ${i + 1}`].map((e, index)=>{
