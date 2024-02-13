@@ -1,4 +1,3 @@
-import { tree } from "d3"
 import { useParams } from "react-router-dom"
 
 function Inputs(){
