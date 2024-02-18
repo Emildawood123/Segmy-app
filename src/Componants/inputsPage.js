@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom"
 function Inputs(){
     let params = useParams()
     let forRanks = params.Numbers.split(',')[0]
-                let forTeams = params.Numbers.split(',')[1]
-                let inputsObj = {}
+    let forTeams = params.Numbers.split(',')[1]
+    let inputsObj = {}
                 for (let i = 0; i < forRanks; i++) {
                     for (let j = 0; j < forTeams; j++){
                         if (inputsObj[`RANK ${i + 1}`] === undefined){
